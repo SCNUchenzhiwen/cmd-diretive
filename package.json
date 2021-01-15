@@ -1,7 +1,9 @@
 {
-  "name": "hello",
+  "name": "archer",
+  "version": "1.0.0",
+  "description": "diretive for creating app",
   "bin": {
-    "nfplus": "bin/nfpluscli.js"
+    "archer": "bin/archercli.js"
   },
   "dependencies": {
     "axios": "^0.21.0",
@@ -15,5 +17,7 @@
     "shelljs": "^0.8.4",
     "spinner": "^0.3.4",
     "yargs": "^16.1.1"
-  }
+  },
+  "author": "scnu_chenzhiwen",
+  "license": "ISC"
 }

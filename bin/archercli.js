@@ -38,7 +38,7 @@ const init = async () => {
   const projectName = argv._[1]
   const key = directive ? `${directive.split('-').slice(-1)[0]}` : ''
   if (!directive || !repository[`${directive.split('-').slice(-1)[0]}`]) {
-    log.warn(`\n:rotating_light: 请使用${Object.keys(repository).map(key => `create-nfplus-${key}`).join('或')}创建应用\n`)
+    log.warn(`\n:rotating_light: 请使用${Object.keys(repository).map(key => `create-archer-${key}`).join('或')}创建应用\n`)
     return
   }
   if (!projectName) {

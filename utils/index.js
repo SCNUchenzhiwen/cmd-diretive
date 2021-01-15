@@ -36,13 +36,13 @@ exports.checkProjectName = (projectName) => {
     return true
   }
   if (!result) {
-    log.error(`:rotating_light: 请输入合法的项目名，例如nfplus-report-admin`)
+    log.error(`:rotating_light: 请输入合法的项目名，例如archer-report-admin`)
     return result
   }
   const reg = /^[a-zA-Z0-9]+(-[a-zA-Z0-9]+)*/
   result = reg.test(projectName)
   if (!result) {
-    log.error(`:rotating_light: 请输入合法的项目名，例如nfplus-report-admin`)
+    log.error(`:rotating_light: 请输入合法的项目名，例如archer-report-admin`)
   }
   result && (result = checkExistProject(projectName))
   return result

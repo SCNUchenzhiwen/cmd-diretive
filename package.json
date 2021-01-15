@@ -1,9 +1,9 @@
 {
-  "name": "archer",
+  "name": "archercli",
   "version": "1.0.0",
   "description": "diretive for creating app",
   "bin": {
-    "archer": "bin/archercli.js"
+    "archercli": "bin/archercli.js"
   },
   "dependencies": {
     "axios": "^0.21.0",
